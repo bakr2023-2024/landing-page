@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+h1,
+h3 {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+.div0 {
+  background-color: #1f2937;
+}
+.header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.hero {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+.words {
+  display: flex;
+  flex-direction: column;
+}
+.words h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.words p,
+ul a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero img {
+  width: 30%;
+  height: 30%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-right: auto;
+}
+.info {
+  display: flex;
+  gap: 16px;
+}
+.div1 img {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+.info1 {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.label {
+  font-size: 20px;
+}
+.quoter {
+  background-color: #e5e7eb;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 200px;
+}
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: light italic;
+}
+.btn {
+  width: 20%;
+  text-align: center;
+}
+button {
+  background-color: #3882f6;
+  border: 2px white solid;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: white;
+}
+.author {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 50px;
+  gap: 80px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: white;
+}
+.action h3 {
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+}
+.action h3 {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
