@@ -13,20 +13,20 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <header class="dark">
-      <nav>
+    <header class="container">
+      <nav class="centerDiv">
         <div>
-          <h3>Header Logo</h3>
+          <h3 id="headerLogo">Header Logo</h3>
         </div>
-        <div class="navItems">
-          <ul>
+        <div>
+          <ul class="navItems">
             <li>header link one</li>
             <li>header link two</li>
             <li>header link three</li>
           </ul>
         </div>
       </nav>
-      <div class="flex">
+      <div class="hero centerDiv">
         <div>
           <h1>This Website is Awesome.</h1>
           <p>
@@ -40,49 +40,52 @@
         </div>
       </div>
     </header>
-    <main>
-      <div>
-        <h2>Some random information.</h2>
+    <main class="container">
+      <div class="centerDiv">
+        <h2 id="infoHeader">Some random information.</h2>
         <div class="imageItems">
           <div class="imageItem">
-            <img src="https://placebear.com/g/100/100" />
+            <img src="https://placebear.com/g/150/150" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
           </div>
           <div class="imageItem">
-            <img src="https://placebear.com/g/100/100" />
+            <img src="https://placebear.com/g/150/150" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
           </div>
           <div class="imageItem">
-            <img src="https://placebear.com/g/100/100" />
+            <img src="https://placebear.com/g/150/150" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
           </div>
           <div class="imageItem">
-            <img src="https://placebear.com/g/100/100" />
+            <img src="https://placebear.com/g/150/150" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
           </div>
         </div>
       </div>
       <div class="quoteSection">
-        <blockquote>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorem
-          in recusandae ipsam nulla sunt iste
-        </blockquote>
-        <p>John Cena</p>
+        <div class="centerDiv">
+          <blockquote>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+            dolorem in recusandae ipsam nulla sunt iste Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Vero dolorem in recusandae ipsam,
+            sit amet consectetur adipisicing elit. Vero dolorem in recusandae
+            ipsam nulla sunt iste Lorem ipsum dolor,
+          </blockquote>
+          <p class="author">-Thor, God of Thunder</p>
+        </div>
       </div>
-      <div class="adContainer">
-        <div class="ad flex">
-          <div>
-            <h3>Call to action! It's time!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <button class="signUpBtn">Sign up</button>
-          </div>
+      <div class="adContainer centerDiv">
+        <div>
+          <h3>Call to action! It's time!</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <button class="signUpBtn">Sign up</button>
         </div>
       </div>
     </main>
-    <footer class="dark">
-      <p>Copyright @ The Odin Project 2021</p>
+    <footer class="container">
+      <p class="centerDiv">Copyright @ The Odin Project 2021</p>
     </footer>
   </body>
 </html>
